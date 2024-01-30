@@ -1,4 +1,4 @@
-# MIPS assembly for CSCE212
+# MIPS assembly examples for CSCE212
 ## 1. if_statement.s
     - if statement example
 ## 2. add_nums.s
