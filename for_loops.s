@@ -1,5 +1,5 @@
     .data
-
+newline: .asciiz "\n"
 
     .text
 main:
@@ -13,6 +13,11 @@ loop:
 
     move $a0, $t0 #move t0 to a0 (first param for print)
     li $v0, 1 #system call 1 is for print
+    syscall #print
+
+    # print the newline
+    la $a0, newline #load address of newline
+    li $v0, 4 #system call 4 is for print newline
     syscall #print
 
 

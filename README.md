@@ -7,3 +7,5 @@
     - if else statement example
 ## 4. swap_nums.s
     - swap two numbers example
+## 5. for_loop.s
+    - for loop example
