@@ -14,3 +14,5 @@
     - for loop example
 ### 6. while_loops.s
     - while loop example
+### 7. string_array.s
+    - loading strings into array and printing them out
