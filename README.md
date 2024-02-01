@@ -9,3 +9,5 @@
     - swap two numbers example
 ## 5. for_loops.s
     - for loop example
+## 6. while_loops.s
+    - while loop example
