@@ -1,5 +1,6 @@
 # a string is 4 bytes long in MIPS
     .data
+# less efficient than setting at init
 days:   .space 20       #allocate 20 bytes of space (alis as "days)
 # create objects to hold each value in the array
 mon:     .asciiz "Mon\n"
@@ -7,6 +8,8 @@ tue:     .asciiz "Tue\n"
 wed:     .asciiz "Wed\n"
 thu:     .asciiz "Thu\n"
 fri:     .asciiz "Fri\n"
+# setting at init, would not need to load and store
+# days:    .word mon, tue, wed, thu, fri
 # starting at 0 -> 4
 iterator:  .word 0
 size:     .word 4
@@ -36,8 +39,6 @@ begin_loop:
     syscall
     addi $t1, $t1, 1        #increment iterator by 1, iterator++
     j begin_loop
-
-
 
 end_loop:
     li $v0, 10              #system call code for exit

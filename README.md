@@ -16,3 +16,16 @@
     - while loop example
 ### 7. string_array.s
     - loading strings into array and printing them out
+### 8. int_arrays.s
+    - loading integers into array and printing them out
+### 9. function1.s
+    - function example
+### 10. nested_functions.s
+    - nested function example
+
+## ASSIGNMENTS
+
+### 1. assignment1
+    - basic hello world program
+### 2. assignment2
+    - fizz buzz in mips
